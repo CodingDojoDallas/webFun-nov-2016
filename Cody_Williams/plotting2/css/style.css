@@ -35,13 +35,13 @@ div.box{
 	display: inline-block;
 	vertical-align: top;
 }
+div.box:nth-child(even){
+	background: #F55A58;		
+}
+div.box:nth-child(odd){
+	background: #79A1C9;
+}
 	div.box img{
 		height: 100%;
 		width: 100%;
-	}
-	div.box:nth-child(even){
-	background: #F55A58;		
-	}
-	div.box:nth-child(odd){
-		background: #79A1C9;
 	}

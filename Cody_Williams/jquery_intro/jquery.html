@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jQuery is FUN</title>
+	<meta charset="utf-8">
+	<script src="jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Getters
+			var value = $("#hello").text();
+			console.log(value);
+			var color = $('#hello').css('color')
+			console.log(color);
+			console.log($('textarea').val())
+			
+			//Setters
+			$('#hello').css('color', 'green');
+			$('textarea').val('We have changed the text');
+
+			//Event listeners
+			$('#hello').click(function(){
+				var html_str = '<p>World</p>'
+				$('.box').append(html_str);
+			})
+		})
+	</script>
+	<style>
+		#hello{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<p id="hello">Hello</p>
+	<div class="box">
+		<p>Inside</p>
+	</div>
+	<p>Outise</p>
+</body>
+</html>

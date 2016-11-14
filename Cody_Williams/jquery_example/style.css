@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: slategrey;
+}
+.container{
+	width: 100vw;
+	margin: 0 auto;
+}
+.greeting, .main-body{
+	width: 100%;
+	height: 100vh;
+}
+.greeting{
+	background: url('https://upload.wikimedia.org/wikipedia/commons/d/d0/The_New_York_Times_newsroom_1942.jpg');
+	text-align: center;
+	background-size: cover;
+}
+	.greeting h1{
+		font-size: 200px;
+		position: relative;
+	  top: 50%;
+	  color: darkgrey;
+	  transform: translateY(-50%);
+	}
+.main-body{
+	display: none;
+}
+.side-content, .main-content{
+	padding: 15px;
+	display: inline-block;
+}
+.side-content{
+	width: 400px;
+	vertical-align: top;
+}
+	.side-content ul{
+		list-style-type: none;
+		margin-top: 20px;
+	}
+	.side-content ul li{
+		height: 30px;
+		background: silver;
+		border: 1px solid darkgrey;
+		font-size: 1.5em;
+	}
+.main-content{
+	width: 790px;
+}
+	.main-content h1{
+		font-size: 3em;
+	}
+	.main-content p{
+		line-height: 1.4;
+	}
+	.main-content img{
+		/*margin: 0 8px 5px 0;*/
+		margin-top: 4px;
+		margin-right: 8px;
+		float: left;
+		vertical-align: bottom;
+	}
+.article1 img{
+	height: 140px;
+	width: 190px;
+	
+}
+.article2{
+	display: none;
+}
+	.article2 img{
+		height: 250px;
+		width: 175px;
+	}
+	.article2 p{
+		line-height: 1.3;
+	}
+

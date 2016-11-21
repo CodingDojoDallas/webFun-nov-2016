@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+.selector{
+	height: 200px;
+	width: 300px;
+	padding: 20px;
+	background: grey;
+	margin: 0 auto;
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+  text-align: center;
+}
+	.selector table{
+		margin: 10px 0;
+		width: 100%;
+	}
+	.selector table td{
+		width: 50%;
+		padding: 5px;
+	}
+	#dojo table td{
+		border: 1px solid black;
+		border-radius: 5px;
+		background: silver;
+	}
+	.selector a{
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+#ninja{
+	display: none;
+}
+img{
+	display: none;
+	height: 200px;
+	position: absolute;
+	bottom: 20%;
+}
+#playerOne{
+	left: 5%;
+}
+#playerTwo{
+	right: 5%;
+}

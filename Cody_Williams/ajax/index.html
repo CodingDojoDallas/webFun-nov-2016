@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax and API's</title>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		for(var i = 1; i < 300; i++){
+			$('div').append(
+				'<img data-poke='+ i.toString() +' src="http://pokeapi.co/media/img/' + i + '.png">'
+			)
+		}
+	})
+	</script>
+</head>
+<body>
+	<div>
+		
+	</div>
+</body>
+</html>
